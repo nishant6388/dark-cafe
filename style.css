@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+footer {
+  background: #222;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+/* Coffee Slider Section */
+.coffee-slider {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+  gap: 20px;
+  padding: 20px;
+}
+
+.coffee-slider::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.slide {
+  flex: 0 0 auto;
+  width: 250px;
+  scroll-snap-align: center;
+  text-align: center;
+  background: #f8f8f8;
+  border-radius: 10px;
+  padding: 15px;
+  transition: transform 0.3s;
+}
+
+.slide img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.slide:hover {
+  transform: scale(1.05);
+}
+.slide img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;  /* Keeps image neat */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+#menu-page {
+  padding: 30px;
+  text-align: center;
+}
+
+#menu-page h3 {
+  color: #f39c12;
+  margin-top: 20px;
+}
+
+#menu-page ul {
+  list-style: none;
+  padding: 0;
+}
+
+#menu-page ul li {
+  background: #f4f4f4;
+  margin: 5px auto;
+  padding: 10px;
+  width: 60%;
+  border-radius: 5px;
+}
+
