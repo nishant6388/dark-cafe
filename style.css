@@ -100,4 +100,12 @@ footer {
   width: 60%;
   border-radius: 5px;
 }
+body {
+  background-image: url("images/cafe-bg.jpg");
+  background-size: cover;       /* makes image fill the screen */
+  background-repeat: no-repeat; /* stops tiling */
+  background-attachment: fixed; /* keeps background fixed while scrolling */
+}
+
+
 
