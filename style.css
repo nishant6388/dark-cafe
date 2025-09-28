@@ -101,11 +101,12 @@ footer {
   border-radius: 5px;
 }
 body {
-  background-image: url("images/cafe-bg.jpg");
+  background-image: url("images/hu.jpg");
   background-size: cover;       /* makes image fill the screen */
   background-repeat: no-repeat; /* stops tiling */
   background-attachment: fixed; /* keeps background fixed while scrolling */
 }
+
 
 
 
